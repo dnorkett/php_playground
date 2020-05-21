@@ -1,6 +1,7 @@
 <?php
-require 'bootstrap.php';
+$database = require 'core/bootstrap.php';
 
-$name = 'Dave';
-$greeting = "Hello, $name";
+$uri = trim($_SERVER['REQUEST_URI'], '/');
+
+require Router::load('routes.php')->direct($uri);
 

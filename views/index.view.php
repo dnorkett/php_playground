@@ -16,15 +16,10 @@
 <body>
     <header> 
     <h1>
-        <?= $greeting ?>
+        Hello, Dave
     </h1>
 
-    <nav>
-        <ul>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-        </ul>
-    </nav>
+    <?php require('partials/nav.php') ?>    
 
     </header>
 

@@ -7,6 +7,6 @@
 </head>
 <body>
     <?php require('partials/nav.php') ?>
-    About Us
+    About our culture
 </body>
 </html>
